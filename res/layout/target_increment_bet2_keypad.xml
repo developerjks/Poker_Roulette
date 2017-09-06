@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  target increment bet2 keypad linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--  first empty horizontal linear layout for target increment bet2keys starts here -->
+    <LinearLayout
+        android:id="@+id/target_increment_bet2_empty_layout_before_100_500_1000_5000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">  
+   </LinearLayout>
+   <!--  first empty horizontal linear layout for target increment bet2keys ends here -->
+    
+   <!--  second horizontal linear layout for target increment bet2keys starts here -->
+   <LinearLayout
+        android:id="@+id/target_increment_bet2_layout_100_500_1000_5000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+        android:id="@+id/target_empty_before_100_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_txt_100_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+       	<TextView
+                 android:id="@+id/target_txt_100"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_empty_after_100_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_txt_500_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        <TextView
+                 android:id="@+id/target_txt_500"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"/>  
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_empty_after_500_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_txt_1000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">  
+        <TextView
+                 android:id="@+id/target_txt_1000"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"/> 
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_empty_after_1000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_txt_5000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+         <TextView
+                  android:id="@+id/target_txt_5000"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/target_empty_after_5000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+     </LinearLayout>
+     <!--  second horizontal linear layout for target increment bet2keys ends here -->
+    
+     <!--  third empty horizontal linear layout for target increment bet2keys starts here -->
+     <LinearLayout
+        android:id="@+id/target_increment_bet2_empty_layout_after_100_500_1000_5000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+   </LinearLayout>
+   <!--  third empty horizontal linear layout for target increment bet2keys ends here --> 
+</LinearLayout>
+<!--  target increment bet2 keypad linear layout ends here -->

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  main linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pointtransferdialogmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pointtransferdialog">
+    
+    	<!--  firstdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/firstdialogrow"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    	</LinearLayout>
+    	<!--  firstdialogrow linear layout ends here -->
+    	<!--  seconddialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/seconddialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        	<!--  secondrow_firstdialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/secondrow_firstdialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  secondrow_firstdialogvertical linear layout ends here -->
+        	<!--  secondrow_seconddialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/secondrow_seconddialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >  
+            
+        	    <!-- textviewone  starts here -->
+                <EditText 
+            	android:id="@+id/txt_accountno_reciever"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:text=""
+                android:textColor="@color/Black"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:inputType="text"    
+            	android:background="@android:color/transparent"
+            	android:maxLength="10"/>
+            	<!-- textviewone  ends here -->
+            	
+        	</LinearLayout>
+        	<!--  secondrow_seconddialogvertical linear layout ends here -->
+        	<!--  secondrow_thirddialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/secondrow_thirddialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  secondrow_thirddialogvertical linear layout ends here -->
+    	</LinearLayout>
+    	<!--  seconddialogrow linear layout ends here -->
+    	<!--  thirddialogrow linear layout starts here -->
+     	<LinearLayout 
+        android:id="@+id/thirddialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    	</LinearLayout>
+    	<!--  thirddialogrow linear layout ends here -->
+    	<!--  fourthdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/fourthdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        	<!--  fourthrow_firstdialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/fourthrow_firstdialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  fourthrow_firstdialogvertical linear layout ends here -->
+        	<!--  fourthrow_seconddialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/fourthrow_seconddialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/pointtransferback"> 
+             	<!--  textview_two starts here -->
+             	<EditText 
+             	android:id="@+id/txt_pin_sender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:inputType="numberPassword" 
+                android:maxLength="10"
+                android:background="@android:color/transparent"   
+             	    />
+             	<!--  textview_two ends here -->
+        	</LinearLayout>
+        	<!--  fourthrow_seconddialogvertical linear layout ends here -->
+       	    <!--  fourthrow_thirddialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/fourthrow_thirddialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  fourthrow_thirddialogvertical linear layout ends here -->
+        </LinearLayout>
+        <!--  fourthdialogrow linear layout starts here -->
+        <!--  fifthdialogrow linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/fifthdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    	</LinearLayout>
+     	<!--  fifthdialogrow linear layout ends here -->
+      	<!--  sixthdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/sixthdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        	<!--  sixthrow_firstdialogvertical linear layout starts here -->
+         	<LinearLayout 
+            android:id="@+id/sixthrow_firstdialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  sixthrow_firstdialogvertical linear layout ends here -->
+        	<!--  sixthrow_seconddialogvertical linear layout starts here -->
+       	    <LinearLayout 
+            android:id="@+id/sixthrow_seconddialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/pointtransferback">
+             	<!--  textview_three starts here -->
+            	<EditText 
+            	android:id="@+id/txt_amount_to_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/Black"
+                android:textSize="11sp"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:inputType="number" 
+                android:maxLength="7"
+                android:background="@android:color/transparent"   
+            	    />    
+            	<!--  textview_three ends here -->  
+        	</LinearLayout>
+         	<!--  sixthrow_seconddialogvertical linear layout ends here -->
+          	<!--  sixthrow_thirddialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/sixthrow_thirddialogvertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  sixthrow_thirddialogvertical linear layout ends here -->
+        </LinearLayout>
+        <!--  sixthdialogrow linear layout ends here -->
+        <!--  seventhdialogrow linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/seventhdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    	</LinearLayout>
+    	<!--  seventhdialogrow linear layout ends here -->
+    	<!--  eighthdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/eighthdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        	<!--  eighthrow_firstdialogvertical linear layout starts here -->
+        	<LinearLayout 
+            android:id="@+id/eighthrow_firstdialogvertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+        	</LinearLayout>
+        	<!--  eighthrow_firstdialogvertical linear layout ends here -->
+        	<!--  eighthrow_seconddialogvertical linear layout starts here -->
+        	<LinearLayout
+            android:id="@+id/eighthrow_seconddialogvertical" 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/transferdialog">
+        	</LinearLayout>
+        	<!--  eighthrow_seconddialogvertical linear layout ends here -->
+        	<!--  eighthrow_thirddialogvertical linear layout starts here -->
+        	<LinearLayout
+            android:id="@+id/eighthrow_thirddialogvertical" 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+        	</LinearLayout>
+        	<!--  eighthrow_thirddialogvertical linear layout ends here -->
+        	<!--  eighthrow_fourthdialogvertical linear layout starts here -->
+        	<LinearLayout
+            android:id="@+id/eighthrow_fourthdialogvertical" 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+       		android:background="@drawable/closedialog">
+        	</LinearLayout>
+        	<!--  eighthrow_fourthdialogvertical linear layout ends here -->
+        	<!--  eighthrow_fifthdialogvertical linear layout starts here -->
+        	<LinearLayout
+            android:id="@+id/eighthrow_fifthdialogvertical" 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+        	</LinearLayout>
+        	<!--  eighthrow_fifthdialogvertical linear layout ends here -->
+    	</LinearLayout>
+    	<!--  eighthdialogrow linear layout ends here -->
+    	<!--  ninthdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/ninthdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    	</LinearLayout>
+    	<!--  ninthdialogrow linear layout ends here -->
+    	<!--  tenthdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/tenthdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        	<!--  tenthrow_firstdialogvertical linear layout starts here -->
+        	<LinearLayout 
+        	android:id="@+id/tenthrow_firstdialogvertical"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:orientation="vertical">  
+        	</LinearLayout>
+        	<!--  tenthrow_firstdialogvertical linear layout ends here -->
+        	<!--  tenthrow_seconddialogvertical linear layout starts here -->
+        	<LinearLayout 
+        	android:id="@+id/tenthrow_seconddialogvertical"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:orientation="vertical"> 
+        	<!--  textview_three starts here -->   
+        		<TextView 
+        		android:id="@+id/txt_response_point_transfer"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content">  
+        		</TextView>
+        		<!--  textview_three ends here -->
+        	</LinearLayout>
+        	<!--  tenthrow_seconddialogvertical linear layout ends here -->
+    	</LinearLayout>
+     	<!--  tenthdialogrow linear layout ends here -->
+      	<!--  eleventhdialogrow linear layout starts here -->
+    	<LinearLayout 
+        android:id="@+id/eleventhdialogrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    	</LinearLayout>
+    	<!--  eleventhdialogrow linear layout ends here -->
+</LinearLayout>
+<!--  main linear layout ends here -->

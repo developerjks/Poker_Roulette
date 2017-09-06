@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/funroulettelistimage" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="3dp"
+        android:textSize="10sp"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/imageView1" />
+
+</RelativeLayout>

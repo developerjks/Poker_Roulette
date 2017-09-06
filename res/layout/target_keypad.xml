@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  main linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/funtarget_keypad_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/target_keypad_bg">
+    
+    
+    <!--  first horizontal linear layout for target betbox starts here -->
+    <LinearLayout
+        android:id="@+id/layout_keypad_target_betbox" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+				    <!--  betbox_1_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_1_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                                         android:id="@+id/txt_1" 
+                                         android:layout_width="match_parent"
+                                         android:layout_height="match_parent"
+                                        android:background="@drawable/target_betbox"/>
+				     </LinearLayout>
+				   <!--  betbox_1_target_keypad vertical linear layout for target betbox ends here -->
+				
+				   
+				   <!--  betbox_2_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_2_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_2" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				     </LinearLayout>
+				   <!--  betbox_2_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   <!--  betbox_3_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_3_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_3" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    			
+				     </LinearLayout>
+				   <!--  betbox_3_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				 <!--  betbox_4_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_4_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_4" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_4_target_keypad vertical linear layout for target betbox ends here -->
+				
+				   
+				   <!--  betbox_5_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_5_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_5" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_5_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   <!--  betbox_6_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_6_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_6" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_6_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				 <!--  betbox_7_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_7_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_7" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_7_target_keypad vertical linear layout for target betbox ends here -->
+				
+				   
+				   <!--  betbox_8_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_8_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_8" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_8_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   <!--  betbox_9_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_9_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_9" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_9_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				   <!--  betbox_0_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betbox_0_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_0" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbox"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betbox_0_target_keypad vertical linear layout for target betbox ends here -->
+   
+        </LinearLayout>
+   <!--  first horizontal linear layout for target betbox ends here -->
+   
+   
+
+
+
+   
+   
+    <!--  second horizontal linear layout for target keypad starts here -->
+    <LinearLayout
+        android:id="@+id/layout_keypad_target_betkeys" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    
+            <!--  empty layout before betkey_1_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_1_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_1_target_keypad vertical linear layout for target betkey ends here -->
+				
+
+				    <!--  betkey_1_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_1_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_1_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_1_target_keypad vertical linear layout for target betbox ends here -->
+				
+
+				   <!--  empty layout before betkey_2_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_2_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+				   <!-- empty layout before betkey_2_target_keypad vertical linear layout for target betkey ends here -->
+
+				   
+				   <!--  betkey_2_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_2_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_2_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_2_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				   
+				   <!-- empty layout before betkey_3_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_3_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+				   <!-- empty layout before betkey_3_target_keypad vertical linear layout for target betkey ends here -->
+				   
+				   <!--  betkey_3_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_3_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_3_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_3_target_keypad vertical linear layout for target betbox ends here -->
+			
+			<!--  empty layout before betkey_4_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_4_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_4_target_keypad vertical linear layout for target betkey ends here -->
+					   
+				 <!--  betkey_4_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_4_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_4_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_4_target_keypad vertical linear layout for target betbox ends here -->
+				
+				   
+				   
+				   <!--  empty layout before betkey_5_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_5_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_5_target_keypad vertical linear layout for target betkey ends here -->
+				
+				   <!--  betkey_5_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_5_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_5_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_5_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				   
+				   <!--  empty layout before betkey_6_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_6_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_6_target_keypad vertical linear layout for target betkey ends here -->
+				
+				   <!--  betkey_6_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_6_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_6_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_6_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				   
+				   
+				   <!--  empty layout before betkey_7_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_7_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_7_target_keypad vertical linear layout for target betkey ends here -->
+				
+				 <!--  betkey_7_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_7_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_7_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_7_target_keypad vertical linear layout for target betbox ends here -->
+				
+				   
+				   
+				   
+				   
+				   <!--  empty layout before betkey_8_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_8_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_8_target_keypad vertical linear layout for target betkey ends here -->
+				
+				   <!--  betkey_8_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_8_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_8_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_8_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				   
+				   
+				   <!--  empty layout before betkey_9_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_9_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_9_target_keypad vertical linear layout for target betkey ends here -->
+				
+				   <!--  betkey_9_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_9_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_9_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_9_target_keypad vertical linear layout for target betbox ends here -->
+				   
+				   
+				   
+				   
+				   <!--  empty layout before betkey_0_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_betkey_0_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout before betkey_0_target_keypad vertical linear layout for target betkey ends here -->
+				
+				   <!--  betkey_0_target_keypad vertical linear layout for target betbox starts here -->
+				    <LinearLayout
+				        android:id="@+id/betkey_0_target_keypad_layout" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="vertical">
+				                <TextView
+                               				android:id="@+id/txt_betkey_0_target_keypad" 
+                               				android:layout_width="match_parent"
+                               				android:layout_height="match_parent"
+                               				android:background="@drawable/target_betbg"/>
+				        				    
+				     </LinearLayout>
+				   <!--  betkey_0_target_keypad vertical linear layout for target betbox ends here -->
+   
+           <!--  empty layout after betkey_0_target_keypad vertical linear layout for target betkey starts here -->
+				    <LinearLayout
+				        android:id="@+id/empty_after_betkey_0_target_keypad_layout" 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:orientation="vertical">
+				    
+				     </LinearLayout>
+		   <!--  empty layout after betkey_0_target_keypad vertical linear layout for target betkey ends here -->
+                
+     </LinearLayout>
+   <!--  second horizontal linear layout for target keypad ends here -->
+  
+</LinearLayout>
+<!--  main linear layout ends here -->

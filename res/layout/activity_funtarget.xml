@@ -1,0 +1,595 @@
+<!-- Main linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fungameavs1.FunTargetActivity"
+    android:id="@+id/fun_target_mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <!-- first row starts here -->
+	            <LinearLayout 
+	                android:id="@+id/first_row"
+	                android:layout_width="match_parent"
+	    			android:layout_height="match_parent"
+	    			android:orientation="horizontal">
+	                    
+						<!-- first row first column starts here -->
+						       <LinearLayout 
+						            android:id="@+id/first_row_first_column"
+					                android:layout_width="match_parent"
+	    							android:layout_height="match_parent"
+	    							android:orientation="vertical">
+						              <!-- first row first column first cell starts here -->
+						              <LinearLayout 
+						                  android:id="@+id/txt_score_layout"
+						                  android:layout_width="match_parent"
+	    							      android:layout_height="match_parent"
+	    								  android:orientation="horizontal">
+						                    <TextView 
+						                        android:id="@+id/txt_score"
+						                        android:layout_width="match_parent"
+						                        android:layout_height="match_parent"/>
+						              </LinearLayout>
+						              <!-- first row first column first cell ends here -->
+						              <!-- first row first column second cell starts here -->
+						              <LinearLayout 
+						                  android:id="@+id/txt_time_layout"
+						                  android:layout_width="match_parent"
+	    							      android:layout_height="match_parent"
+	    								  android:orientation="horizontal">
+						                     <TextView 
+						                         android:id="@+id/txt_time"
+						                         android:layout_width="match_parent"
+						                         android:layout_height="match_parent"/>
+						              </LinearLayout>
+						              <!-- first row first column second cell ends here -->
+						              <!-- first row first column third cell starts here -->
+						              <LinearLayout 
+						                  android:id="@+id/target_increment_first_bet_layout"
+						                  android:layout_width="match_parent"
+	    							      android:layout_height="match_parent"
+	    								  android:orientation="horizontal">
+						              </LinearLayout>
+						              <!-- first row first column third cell ends here -->
+						       </LinearLayout>
+						<!-- first row first column ends here -->
+						
+						<!-- first row second column starts here -->
+						       <LinearLayout 
+						            android:id="@+id/first_row_second_column"
+					                android:layout_width="match_parent"
+	    							android:layout_height="match_parent"
+	    							android:orientation="vertical">
+						      	  <RelativeLayout 
+						               android:id="@+id/first_row_second_column_relative"
+						               android:layout_width="match_parent"
+						               android:layout_height="match_parent">
+						                     
+						      	      <ImageView 
+						      	       android:id="@+id/iv_nwheel"
+						               android:layout_width="match_parent"
+						               android:layout_height="match_parent"
+						             />
+						               <ImageView 
+						                   android:id="@+id/iv_bggoldwheel2"
+						                   android:layout_width="wrap_content"
+						                   android:layout_height="wrap_content"
+						               />
+						               <ImageView 
+						                   android:id="@+id/iv_nlogo10"
+						                   android:layout_width="wrap_content"
+						                   android:layout_height="wrap_content"
+						               />
+						               <ImageView 
+						                   android:id="@+id/iv_arrow"
+						                   android:layout_width="wrap_content"
+						                   android:layout_height="wrap_content"
+						               />
+						          </RelativeLayout>     
+						       </LinearLayout>
+						<!-- first row second column ends here -->
+						
+						<!-- first row third column starts here -->
+						       <LinearLayout 
+						            android:id="@+id/first_row_third_column"
+					                android:layout_width="match_parent"
+	    							android:layout_height="match_parent"
+	    							android:orientation="vertical">
+		           				    <!-- first row third column first cell starts here -->
+						            <LinearLayout 
+						                  android:id="@+id/txt_winner_layout"
+						                  android:layout_width="match_parent"
+	    							      android:layout_height="match_parent"
+	    								  android:orientation="horizontal">
+						                  <TextView 
+						                        android:id="@+id/txt_winner"
+						                        android:layout_width="match_parent"
+						                        android:layout_height="match_parent"/>
+						            </LinearLayout>
+						            <!-- first row third column first cell ends here -->
+						            <!-- first row third column second cell starts here -->
+						            <LinearLayout 
+						                  android:id="@+id/txt_last_10_data_layout"
+						                  android:layout_width="match_parent"
+	    							      android:layout_height="match_parent"
+	    								  android:orientation="horizontal">
+												<!-- first row third column second cell vertical starts here -->
+						                		<LinearLayout 
+						                		    android:id="@+id/txt_last_10_data_vertical_layout"
+						                		    android:layout_width="match_parent"
+						                		    android:layout_height="match_parent"
+						                		    android:orientation="vertical">
+						                		    
+						                		    <!-- first row third column second cell first row starts here -->
+						                		    <LinearLayout 
+						                		        android:id="@+id/horizon1"
+						                		        android:layout_width="match_parent"
+						                		        android:layout_height="match_parent"
+						                		        android:orientation="horizontal">
+						                		    </LinearLayout>
+						                		    <!-- first row third column second cell first row ends here -->
+						                		    
+						                		    <!-- first row third column second cell second row starts here -->
+						                		    <LinearLayout 
+						                		        android:id="@+id/horizon2"
+						                		        android:layout_width="match_parent"
+						                		        android:layout_height="match_parent"
+						                		        android:orientation="horizontal">
+						                		        
+						                		        
+						                		        <!-- last 10 data starts here -->
+                                                      <LinearLayout 
+									               			android:id="@+id/empty_before_txt_last_10_data_0_layout"
+									               			android:layout_width="match_parent"
+									               			android:layout_height="match_parent"
+									               			android:orientation="vertical"
+									              		>
+									          		  </LinearLayout>
+		                                    
+											          <LinearLayout 
+											               android:id="@+id/txt_last_10_data_0_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >
+												           <TextView 
+												               android:id="@+id/txt_last_10_data_0"
+												               android:layout_width="wrap_content"
+												               android:layout_height="wrap_content"
+												               />  
+											          </LinearLayout>
+											          
+											          <LinearLayout 
+											               android:id="@+id/txt_last_10_data_1_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >
+													           <TextView 
+													               android:id="@+id/txt_last_10_data_1"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />
+												       </LinearLayout>         
+											           <LinearLayout 
+											               android:id="@+id/txt_last_10_data_2_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >
+											                  <TextView 
+													               android:id="@+id/txt_last_10_data_2"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />
+											           </LinearLayout>
+											           <LinearLayout 
+											               android:id="@+id/txt_last_10_data_3_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >        
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_3"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />
+													     </LinearLayout>
+													   <LinearLayout 
+											               android:id="@+id/txt_last_10_data_4_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >           
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_4"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />         
+											           </LinearLayout>
+											           
+													   <LinearLayout 
+											               android:id="@+id/txt_last_10_data_5_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >           
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_5"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />         
+											           </LinearLayout>
+											           <LinearLayout 
+											               android:id="@+id/txt_last_10_data_6_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >           
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_6"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />         
+											           </LinearLayout>
+											           <LinearLayout 
+											               android:id="@+id/txt_last_10_data_7_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >           
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_7"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />         
+											           </LinearLayout>
+											           <LinearLayout 
+											               android:id="@+id/txt_last_10_data_8_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >           
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_8"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />         
+											           </LinearLayout>
+											           <LinearLayout 
+											               android:id="@+id/txt_last_10_data_9_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >           
+													          <TextView 
+													               android:id="@+id/txt_last_10_data_9"
+													               android:layout_width="wrap_content"
+													               android:layout_height="wrap_content"
+													               />         
+											           </LinearLayout>
+											           <LinearLayout 
+											               android:id="@+id/empty_after_txt_last_10_data_9_layout"
+											               android:layout_width="match_parent"
+											               android:layout_height="match_parent"
+											               android:orientation="vertical"
+											              >
+											          </LinearLayout>					           									           
+                                                       
+                                                   <!-- last 10 data ends here -->
+						                		    </LinearLayout>
+						                		    <!-- first row third column second cell second row ends here -->
+						                		    
+						                		    <!-- first row third column second cell third row starts here -->
+						                		    <LinearLayout 
+						                		        android:id="@+id/horizon3"
+						                		        android:layout_width="match_parent"
+						                		        android:layout_height="match_parent"
+						                		        android:orientation="horizontal">
+						                		    </LinearLayout>
+						                		    <!-- first row third column second cell third row ends here -->
+						                		</LinearLayout>
+						                		<!-- first row third column second cell vertical ends here -->
+						            </LinearLayout>
+						            <!-- first row third column second cell ends here -->
+						            <!-- first row third column third cell starts here -->
+						            <LinearLayout 
+						                  android:id="@+id/target_increment_second_bet_layout"
+						                  android:layout_width="match_parent"
+	    							      android:layout_height="match_parent"
+	    								  android:orientation="horizontal">
+						            </LinearLayout>
+						            <!-- first row third column third cell ends here -->
+						       </LinearLayout>
+						<!-- first row third column ends here -->
+	            </LinearLayout>
+            <!-- first row ends here -->
+            
+            
+            
+            <!-- second row starts here -->
+	            <LinearLayout 
+	                android:id="@+id/second_row"
+	                android:layout_width="match_parent"
+	    			android:layout_height="match_parent"
+	    			android:orientation="horizontal">
+						       
+	                	<!-- secondrow_firstcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_firstcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+						            
+	                	    	<!-- secondrow_firstcolumn_firstcell starts here -->
+	                	    	<LinearLayout 
+	                	    	    android:id="@+id/secondrow_firstcolumn_firstcell"
+	                	    	    android:layout_width="match_parent"
+	                	    	    android:layout_height="match_parent"
+	                	    	    android:orientation="horizontal">
+	                	    	</LinearLayout>
+	                	    	<!-- secondrow_firstcolumn_firstcell ends here -->
+	                	    	
+	                	    	<!-- secondrow_firstcolumn_secondcell starts here -->
+	                	    	<LinearLayout 
+	                	    	    android:id="@+id/secondrow_firstcolumn_secondcell"
+	                	    	    android:layout_width="match_parent"
+	                	    	    android:layout_height="match_parent"
+	                	    	    android:orientation="horizontal">
+						                  <ImageView 
+						                      android:id="@+id/btntake"
+						                      android:layout_width="match_parent"
+						                      android:layout_height="match_parent"/>
+	                	    	</LinearLayout>
+	                	    	<!-- secondrow_firstcolumn_secondcell ends here -->
+	                	    	
+	                	    	<!-- secondrow_firstcolumn_thirdcell starts here -->
+	                	    	<LinearLayout 
+	                	    	    android:id="@+id/secondrow_firstcolumn_thirdcell"
+	                	    	    android:layout_width="match_parent"
+	                	    	    android:layout_height="match_parent"
+	                	    	    android:orientation="horizontal">
+	                	    	</LinearLayout>
+	                	    	<!-- secondrow_firstcolumn_thirdcell ends here -->
+	                	</LinearLayout>
+	                	<!-- secondrow_firstcolumn ends here -->
+	                	
+	                	<!-- secondrow_secondcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_secondcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+	                	</LinearLayout>
+	                	<!-- secondrow_secondcolumn ends here -->
+	                	
+	                	<!-- secondrow_thirdcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_thirdcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+	                	    	
+	                	    <!-- secondrow_thirdcolumn_firstcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_thirdcolumn_firstcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	    </LinearLayout>
+	                	    <!-- secondrow_thirdcolumn_firstcell ends here -->
+	                	    
+	                	    <!-- secondrow_thirdcolumn_secondcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_thirdcolumn_secondcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+						                  
+	                	        <ImageView 
+	                	            android:id="@+id/btn_cancelbet"
+	                	            android:layout_width="match_parent"
+	                	            android:layout_height="match_parent"/>
+	                	    </LinearLayout>
+	                	    <!-- secondrow_thirdcolumn_secondcell ends here -->
+	                	    
+	                	    <!-- secondrow_thirdcolumn_thirdcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_thirdcolumn_thirdcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	    </LinearLayout>
+	                	    <!-- secondrow_thirdcolumn_thirdcell ends here -->
+	                	    
+	                	    
+	                	</LinearLayout>
+	                	<!-- secondrow_thirdcolumn ends here -->
+	                	
+	                	<!-- secondrow_fourthcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_fourthcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+	                	</LinearLayout>
+	                	<!-- secondrow_fourthcolumn ends here -->
+	                	
+	                	<!-- secondrow_fifthcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_fifthcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+	                	    <!-- secondrow_fifthcolumn_firstcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_fifthcolumn_firstcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	    </LinearLayout>
+	                	    <!-- secondrow_fifthcolumn_firstcell ends here -->
+	                	    
+	                	    <!-- secondrow_fifthcolumn_secondcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_fifthcolumn_secondcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	        <ImageView 
+	                	            android:id="@+id/btn_cancelspecificbet"
+	                	            android:layout_width="match_parent"
+	                	            android:layout_height="match_parent"/>
+	                	    </LinearLayout>
+	                	    <!-- secondrow_fifthcolumn_secondcell ends here -->
+	                	    
+	                	    <!-- secondrow_fifthcolumn_thirdcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_fifthcolumn_thirdcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	    </LinearLayout>
+	                	    <!-- secondrow_fifthcolumn_thirdcell ends here -->
+	                	</LinearLayout>
+	                	<!-- secondrow_fifthcolumn ends here -->
+	                	
+	                	<!-- secondrow_sixthcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_sixthcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+	                	</LinearLayout>
+	                	<!-- secondrow_sixthcolumn ends here -->
+	                	
+	                	<!-- secondrow_seventhcolumn starts here -->
+	                	<LinearLayout 
+	                	    android:id="@+id/secondrow_seventhcolumn"
+	                	    android:layout_width="match_parent"
+	                	    android:layout_height="match_parent"
+	                	    android:orientation="vertical">
+	                	    
+	                	    <!-- secondrow_seventhcolumn_firstcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_seventhcolumn_firstcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	    </LinearLayout>
+	                	    <!-- secondrow_seventhcolumn_firstcell ends here -->
+	                	    
+	                	    <!-- secondrow_seventhcolumn_secondcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_seventhcolumn_secondcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	        
+	                	        <ImageView 
+	                	            android:id="@+id/btn_betok"
+	                	            android:layout_width="match_parent"
+	                	            android:layout_height="match_parent"/>
+	                	    </LinearLayout>
+	                	    <!-- secondrow_seventhcolumn_secondcell ends here -->
+	                	    
+	                	    <!-- secondrow_seventhcolumn_thirdcell starts here -->
+	                	    <LinearLayout 
+	                	        android:id="@+id/secondrow_seventhcolumn_thirdcell"
+	                	        android:layout_width="match_parent"
+	                	        android:layout_height="match_parent"
+	                	        android:orientation="horizontal">
+	                	    </LinearLayout>
+	                	    <!-- secondrow_seventhcolumn_thirdcell ends here -->
+	                	</LinearLayout>
+	                	<!-- secondrow_seventhcolumn ends here -->
+			        <!-- <ImageView 
+				              android:id="@+id/backgroundimageview"
+				              android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:scaleType="fitXY">
+				    </ImageView> -->
+	            </LinearLayout>
+            <!-- second row ends here -->
+            
+            
+            <!-- third row starts here -->
+	            <LinearLayout 
+	                android:id="@+id/third_row"
+	                android:layout_width="match_parent"
+	    			android:layout_height="match_parent"
+	    			android:orientation="horizontal">
+	            </LinearLayout>
+            <!-- third row ends here -->
+            
+            
+            <!--fourth row starts here -->
+				     <LinearLayout
+				        android:id="@+id/fourth_row" 
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:orientation="horizontal">
+				        <LinearLayout
+							        android:id="@+id/txt_bottom_won_amount_layout" 
+							        android:layout_width="match_parent"
+							        android:layout_height="match_parent"
+							        android:orientation="vertical">
+				                    <TextView 
+				                                 android:id="@+id/txt_bottom_won_amount"
+				                                 android:layout_width="match_parent"
+				                                 android:layout_height="match_parent"/>
+				        </LinearLayout>
+				        <LinearLayout
+					    			android:id="@+id/txt_bottom_bet_status_layout" 
+					    			android:layout_width="match_parent"
+					    			android:layout_height="match_parent"
+									android:orientation="vertical">
+				           			<TextView 
+				           					    android:id="@+id/txt_bottom_bet_status"
+				           					    android:layout_width="match_parent"
+				           					    android:layout_height="match_parent"/>
+				        </LinearLayout>
+				        <LinearLayout 
+				                   android:id="@+id/fourth_row_third_column"
+				                   android:layout_width="match_parent"
+				                   android:layout_height="match_parent"
+				                   android:orientation="vertical">
+				                   <LinearLayout 
+				                            android:id="@+id/empty_row_above_exit_button"
+				                            android:layout_width="match_parent"
+				                            android:layout_height="match_parent"
+				                            android:orientation="horizontal">
+				                   </LinearLayout>   
+				                   <LinearLayout
+				                            android:id="@+id/btn_exit_layout"
+				                            android:layout_width="match_parent"
+				                            android:layout_height="match_parent"
+				                            android:orientation="horizontal">
+	                	        
+				                       
+				                       <LinearLayout 
+				                           android:id="@+id/btn_exit_vertical1"
+				                           android:layout_width="match_parent"
+				                           android:layout_height="match_parent"
+				                           android:orientation="vertical">
+				                       </LinearLayout>
+				                       
+				                       <LinearLayout 
+				                           android:id="@+id/btn_exit_vertical2"
+				                           android:layout_width="match_parent"
+				                           android:layout_height="match_parent"
+				                           android:orientation="vertical">
+						                		    <ImageView 
+				                                android:id="@+id/btn_exit"
+				                                android:layout_width="match_parent"
+				                                android:layout_height="match_parent"
+				                                android:scaleType="fitXY"/>
+				                       </LinearLayout>
+				                            
+				                   </LinearLayout>    
+				         </LinearLayout>      
+				    </LinearLayout>
+				<!--     fourth row ends here -->
+</LinearLayout>
+<!-- Main linear layout ends here -->

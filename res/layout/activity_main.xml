@@ -1,0 +1,364 @@
+<!--  main linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fungameavs1.MainActivity"
+    android:id="@+id/Mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <!--  first horizontal linear layout starts here -->
+    <LinearLayout 
+        android:id="@+id/firsthorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <!--  first horizontal first vertical linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/firsthorizontalfirstvertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        </LinearLayout>
+        <!--  first horizontal first vertical linear layout ends here -->
+         
+         <!--  first horizontal second vertical linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/firsthorizontalsecondvertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+            <TextView 
+                android:id="@+id/txt_internet_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Please Now Login"
+                android:textSize="14dp"
+                android:textColor="#FFA500"/>
+        </LinearLayout>
+         <!--  first horizontal second vertical linear layout ends here -->
+         
+         <!--  first horizontal third vertical linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/firsthorizontalthirdvertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        </LinearLayout>
+         <!--  first horizontal third vertical linear layout ends here -->
+    </LinearLayout>
+    <!--  first horizontal linear layout ends here -->
+    
+    <!--  second horizontal linear layout starts here -->
+    <LinearLayout 
+        android:id="@+id/secondhorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <!--  second horizontal first vertical linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/secondhorizontalfirstvertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            
+            <!--  second horizontal first vertical first horizontal linear layout starts here -->
+            <LinearLayout 
+            android:id="@+id/secondhorizontalfirstverticalfirsthorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            </LinearLayout>
+            <!--  second horizontal first vertical first horizontal linear layout ends here -->
+            
+            <!--  second horizontal first vertical second horizontal linear layout starts here -->
+            <LinearLayout 
+            android:id="@+id/secondhorizontalfirstverticalsecondhorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            
+                <!-- first vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                </LinearLayout>
+                <!-- first vertical linear layout ends here -->
+                
+                 <!-- second vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                
+                    <!--vertical2 first horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical2firsthorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical2 first horizontal linear layout ends here -->
+                    
+                    <!--vertical2 second horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical2secondhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    
+                        <ImageView 
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/account"/>
+                    </LinearLayout>
+                    <!--vertical2 second horizontal linear layout ends here -->
+                    
+                    <!--vertical2 third horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical2thirdhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical2 third horizontal linear layout ends here -->
+                    
+                    <!--vertical2 fourth horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical2fourthhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                        
+                        <ImageView 
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/password"/>
+                    </LinearLayout>
+                    <!--vertical2 fourth horizontal linear layout ends here -->
+                    
+                    <!--vertical2 fifth horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical2fifthhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical2 fifth horizontal linear layout ends here -->
+                </LinearLayout>
+                <!-- second vertical linear layout ends here -->
+                
+                <!-- third vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                </LinearLayout>
+                <!-- third vertical linear layout ends here -->
+                
+                <!-- fourth vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                    
+                    <!--vertical4 first horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical4firsthorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical4 first horizontal linear layout ends here -->
+                    
+                    <!--vertical4 second horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical4secondhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                        
+                         <EditText 
+                            android:id="@+id/txt_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#726964"
+                            android:ems="6"
+                            android:inputType="text|textCapCharacters"
+                            
+                            android:textSize="12sp"
+                            android:textColor="#000"
+                            android:cursorVisible="false"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                    <!--vertical4 second horizontal linear layout ends here -->
+                    
+                    <!--vertical4 third horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical4thirdhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical4 third horizontal linear layout ends here -->
+                    
+                    <!--vertical4 fourth horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical4fourthhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                         
+                        <EditText 
+                            android:id="@+id/txt_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#726964"
+                            android:ems="6"
+                            android:inputType="textPassword"
+                            android:textSize="12sp"
+                            android:textColor="#000"
+                            android:cursorVisible="false"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                    <!--vertical4 fourth horizontal linear layout ends here -->
+                    
+                    <!--vertical4 fifth horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical4fifthhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical4 fifth horizontal linear layout ends here -->
+                    
+                </LinearLayout>
+                <!-- fourth vertical linear layout ends here -->
+                
+                <!-- fifth vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                </LinearLayout>
+                <!-- fifth vertical linear layout ends here -->
+                
+                <!-- sixth vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                    
+                    <!--vertical6 first horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical6firsthorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical6 first horizontal linear layout ends here -->
+                    
+                     <!--vertical6 second horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical6secondhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                        
+                            <ImageView
+                            android:id="@+id/btn_Enter" 
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"/>
+                            
+                     </LinearLayout>
+                    <!--vertical6 second horizontal linear layout ends here -->
+                    
+                    <!--vertical6 third horizontal linear layout starts here -->
+                    <LinearLayout 
+                    android:id="@+id/vertical6thirdhorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+                    <!--vertical6 third horizontal linear layout ends here -->
+                </LinearLayout>
+                <!-- sixth vertical linear layout ends here -->
+                
+                <!-- seventh vertical linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/vertical7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                </LinearLayout>
+                <!-- seventh vertical linear layout ends here -->
+            </LinearLayout>
+            <!--  second horizontal first vertical second horizontal linear layout ends here -->
+        </LinearLayout>
+         <!--  second horizontal first vertical linear layout ends here -->
+         
+         <!--  second horizontal second vertical linear layout starts here -->
+        <LinearLayout 
+        android:id="@+id/secondhorizontalsecondvertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            
+            <!--  second horizontal second vertical first horizontal linear layout starts here -->
+            <LinearLayout 
+            android:id="@+id/secondhorizontalsecondverticalfirsthorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            </LinearLayout>
+            <!--  second horizontal second vertical first horizontal linear layout ends here -->
+            
+            <!--  second horizontal second vertical second horizontal linear layout starts here -->
+            <LinearLayout 
+            android:id="@+id/secondhorizontalsecondverticalsecondhorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+                
+                <!--  second vertical1 linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/secondvertical1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                    
+                    <ImageView
+                        android:id="@+id/btn_Close"  
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"/>
+                </LinearLayout>
+                <!--  second vertical1 linear layout ends here -->
+                
+                <!--  second vertical2 linear layout starts here -->
+                <LinearLayout 
+                android:id="@+id/secondvertical2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                </LinearLayout>
+                <!--  second vertical2 linear layout ends here -->
+            </LinearLayout>
+            <!--  second horizontal second vertical second horizontal linear layout ends here -->
+        </LinearLayout>
+         <!--  second horizontal second vertical linear layout ends here -->
+    </LinearLayout>
+    <!--  second horizontal linear layout ends here -->
+</LinearLayout>
+<!--  main linear layout ends here -->

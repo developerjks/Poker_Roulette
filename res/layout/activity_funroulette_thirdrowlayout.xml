@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  main linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_thirdrowlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--  first horizontal main row starts here -->
+    <LinearLayout
+    	    android:id="@+id/first_horizontal_main_row"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:orientation="horizontal">
+    </LinearLayout>
+    <!--  first horizontal main row ends here -->
+    
+    <!--  second horizontal main starts here -->
+    <LinearLayout
+    	    android:id="@+id/second_horizontal_main_row"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:orientation="horizontal">
+    	    
+        
+        <!--  second horizontal main first vertical starts here -->
+    	    <LinearLayout 
+    	    	    android:id="@+id/second_horizontal_main_row_firstvertical"
+    	    	    android:layout_width="match_parent"
+    	    	    android:layout_height="match_parent"
+    	    	    android:orientation="vertical">  
+    	    </LinearLayout>
+    	    <!--  second horizontal main first vertical ends here -->
+    	    
+    	    
+    	    <!--  second horizontal main row second vertical starts here -->
+    	    <LinearLayout 
+    	    	    android:id="@+id/second_horizontal_main_row_secondvertical"
+    	    	    android:layout_width="match_parent"
+    	    	    android:layout_height="match_parent"
+    	    	    android:orientation="vertical"> 
+    	    	    
+    	         <!--  horizon1 starts here -->
+    	         <LinearLayout 
+    	             android:id="@+id/horizon1"
+    	             android:layout_width="match_parent"
+    	             android:layout_height="match_parent"
+    	             android:orientation="horizontal">
+    	             
+    	             <!--  horizon1_vertical1 starts here -->
+    	             <LinearLayout 
+    	                 android:id="@+id/horizon1_vertical1"
+    	                 android:layout_width="match_parent"
+    	                 android:layout_height="match_parent"
+    	                 android:orientation="vertical"> 
+    	                 
+    	                 <!-- layout_00 starts here -->
+    	                 <LinearLayout 
+    	                     android:id="@+id/layout_00"
+    	                     android:layout_width="match_parent"
+    	                     android:layout_height="match_parent"
+    	                     android:orientation="horizontal">
+    	                 </LinearLayout>
+    	                 <!-- layout_00 ends here -->
+    	                 
+    	                 <!-- layout_0 starts here -->
+    	                 <LinearLayout 
+    	                     android:id="@+id/layout_0"
+    	                     android:layout_width="match_parent"
+    	                     android:layout_height="match_parent"
+    	                     android:orientation="horizontal">
+    	                 </LinearLayout>
+    	                 <!-- layout_0 ends here -->
+    	             </LinearLayout>
+    	             <!--  horizon1_vertical1 ends here -->
+    	             
+    	             <!--  horizon1_vertical2 starts here -->
+    	             <LinearLayout 
+    	                 android:id="@+id/horizon1_vertical2"
+    	                 android:layout_width="match_parent"
+    	                 android:layout_height="match_parent"
+    	                 android:orientation="vertical">  
+    	                 
+    	                 
+    	                 <!-- horizon1_vertical2_horizon1 starts here -->
+    	                 <LinearLayout 
+    	                     android:id="@+id/horizon1_vertical2_horizon1"
+    	                     android:layout_width="match_parent"
+    	                     android:layout_height="match_parent"
+    	                     android:orientation="horizontal">
+    	                     
+    	                     <!-- layout_3 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_3"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_3 ends here -->
+    	                     
+    	                     <!-- layout_6 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_6"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_6 ends here -->
+    	                     
+    	                      <!-- layout_9 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_9"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_9 ends here -->
+    	                     
+    	                      <!-- layout_12 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_12"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_12 ends here -->
+    	                     
+    	                     <!-- layout_15 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_15"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_15 ends here -->
+    	                     
+    	                      <!-- layout_18 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_18"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_18 ends here -->
+    	                     
+    	                     <!-- layout_21 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_21"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_21 ends here -->
+    	                     
+    	                     <!-- layout_24 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_24"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_24 ends here -->
+    	                     
+    	                      <!-- layout_27 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_27"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_27 ends here -->
+    	                     
+    	                      <!-- layout_30 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_30"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_30 ends here -->
+    	                     
+    	                      <!-- layout_33 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_33"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_33 ends here -->
+    	                     
+    	                     <!-- layout_36 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_36"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_36 ends here -->
+    	                 </LinearLayout>
+    	                 <!-- horizon1_vertical2_horizon1 ends here -->
+    	                   
+    	                
+    	                 
+    	                 <!-- horizon1_vertical2_horizon2 starts here -->
+    	                 <LinearLayout 
+    	                     android:id="@+id/horizon1_vertical2_horizon2"
+    	                     android:layout_width="match_parent"
+    	                     android:layout_height="match_parent"
+    	                     android:orientation="horizontal">
+    	                     
+    	                     <!-- layout_2 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_2"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_2 ends here -->
+    	                     
+    	                     <!-- layout_5 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_5"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_5 ends here -->
+    	                     
+    	                      <!-- layout_8 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_8"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_8 ends here -->
+    	                     
+    	                      <!-- layout_11 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_11"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_11 ends here -->
+    	                     
+    	                     <!-- layout_14 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_14"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_14 ends here -->
+    	                     
+    	                      <!-- layout_17 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_17"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_17 ends here -->
+    	                     
+    	                     <!-- layout_20 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_20"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_20 ends here -->
+    	                     
+    	                     <!-- layout_23 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_23"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_23 ends here -->
+    	                     
+    	                      <!-- layout_26 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_26"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_26 ends here -->
+    	                     
+    	                      <!-- layout_29 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_29"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_29 ends here -->
+    	                     
+    	                      <!-- layout_32 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_32"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_32 ends here -->
+    	                       
+    	                     <!-- layout_35 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_35"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_35 ends here -->
+    	                 </LinearLayout>
+    	                 <!-- horizon1_vertical2_horizon2 ends here -->
+    	                 
+    	                 <!-- horizon1_vertical2_horizon3 starts here -->
+    	                 <LinearLayout 
+    	                     android:id="@+id/horizon1_vertical2_horizon3"
+    	                     android:layout_width="match_parent"
+    	                     android:layout_height="match_parent"
+    	                     android:orientation="horizontal">
+    	                     
+    	                      <!-- layout_1 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_1"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_1 ends here -->
+    	                     
+    	                     <!-- layout_4 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_4"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_4 ends here -->
+    	                     
+    	                      <!-- layout_7 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_7"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_7 ends here -->
+    	                     
+    	                      <!-- layout_10 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_10"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_10 ends here -->
+    	                     
+    	                     <!-- layout_13 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_13"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_13 ends here -->
+    	                     
+    	                      <!-- layout_16 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_16"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_16 ends here -->
+    	                     
+    	                     <!-- layout_19 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_19"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_19 ends here -->
+    	                     
+    	                     <!-- layout_22 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_22"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_22 ends here -->
+    	                     
+    	                      <!-- layout_25 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_25"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_25 ends here -->
+    	                     
+    	                      <!-- layout_28 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_28"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_28 ends here -->
+    	                     
+    	                      <!-- layout_31 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_31"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_31 ends here -->
+    	                       
+    	                     <!-- layout_34 starts here -->
+    	                     <LinearLayout 
+    	                         android:id="@+id/layout_34"
+    	                         android:layout_width="match_parent"
+    	                         android:layout_height="match_parent"
+    	                         android:orientation="vertical">
+    	                     </LinearLayout>
+    	                     <!-- layout_34 ends here -->
+    	                 </LinearLayout>
+    	                 <!-- horizon1_vertical2_horizon3 ends here -->
+    	             </LinearLayout>
+    	             <!--  horizon1_vertical2 ends here -->
+    	             
+    	         </LinearLayout>
+    	          <!-- horizon1 ends here -->
+    	          
+    	          <!--  horizon2 starts here -->
+    	         <LinearLayout 
+    	             android:id="@+id/horizon2"
+    	             android:layout_width="match_parent"
+    	             android:layout_height="match_parent"
+    	             android:orientation="horizontal">
+    	         </LinearLayout>
+    	          <!-- horizon2 ends here -->
+    	          
+    	          <!--  horizon3 starts here -->
+    	         <LinearLayout 
+    	             android:id="@+id/horizon3"
+    	             android:layout_width="match_parent"
+    	             android:layout_height="match_parent"
+    	             android:orientation="horizontal">
+    	         </LinearLayout>
+    	          <!-- horizon3 ends here -->
+    	        
+    	    	    </LinearLayout>
+    	    <!--  second horizontal main row second vertical ends here -->
+    	    
+    	    <!--  second horizontal main row third vertical starts here -->
+    	    <LinearLayout 
+    	    	    android:id="@+id/second_horizontal_main_row_thirdvertical"
+    	    	    android:layout_width="match_parent"
+    	    	    android:layout_height="match_parent"
+    	    	    android:orientation="vertical">  
+    	    	</LinearLayout>
+    	    <!--  second horizontal main row third vertical ends here -->
+    </LinearLayout>
+    <!--  second horizontal main ends here -->
+    
+    <!--  third horizontal main row starts here -->
+    <LinearLayout
+    	    android:id="@+id/third_horizontal_main_row"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:orientation="horizontal">
+    </LinearLayout>
+     <!-- third horizontal main row ends here -->
+</LinearLayout>
+<!--  main linear layout ends here -->

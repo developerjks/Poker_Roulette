@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  roulette increment bet keypad linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/roulette_first_increment_bet_keypad_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <!--  first empty horizontal linear layout for roulette increment betkeys starts here -->
+     <LinearLayout
+        android:id="@+id/roulette_increment_bet_empty_layout_before_1_5_10_50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">  
+   </LinearLayout>
+      <!--  first empty horizontal linear layout for roulette increment betkeys  ends here -->
+      
+     <!--  second horizontal linear layout for roulette increment betkeys 1,5,10,50 starts here --> 
+     <LinearLayout
+        android:id="@+id/roulette_increment_bet_layout_1_5_10_50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"> 
+        
+        <LinearLayout
+        android:id="@+id/roulette_empty_before_1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+       	<TextView
+                               android:id="@+id/roulette_txt_1"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_5_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        <TextView
+                               android:id="@+id/roulette_txt_5"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>  
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_5_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_10_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">  
+        <TextView
+                               android:id="@+id/roulette_txt_10"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/> 
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_10_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_50_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+         <TextView
+                               android:id="@+id/roulette_txt_50"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_50_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+         
+   </LinearLayout>
+     <!--  second horizontal linear layout for roulette increment betkeys 1,5,10,50 ends here -->
+     
+      <!--  third empty horizontal linear layout for roulette increment betkeys  starts here -->
+      <LinearLayout
+        android:id="@+id/roulette_increment_bet_empty_layout_before_100_500_1000_5000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">  
+   </LinearLayout>
+       <!--  third empty horizontal linear layout for roulette increment betkeys  ends here -->
+       
+       <!--  fourth horizontal linear layout for roulette increment betkeys 100,500,1000,5000  starts here -->
+       <LinearLayout
+        android:id="@+id/roulette_increment_bet_layout_100_500_1000_5000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"> 
+        
+        <LinearLayout
+        android:id="@+id/roulette_empty_before_100_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_100_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+       	<TextView
+                               android:id="@+id/roulette_txt_100"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_100_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_500_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        <TextView
+                               android:id="@+id/roulette_txt_500"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>  
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_500_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_1000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">  
+        <TextView
+                               android:id="@+id/roulette_txt_1000"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/> 
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_1000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_txt_5000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+         <TextView
+                               android:id="@+id/roulette_txt_5000"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>   
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/roulette_empty_after_5000_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">   
+        </LinearLayout>
+   </LinearLayout>
+       <!--  fourth horizontal linear layout for roulette increment betkeys 100,500,1000,5000  ends here -->
+    
+</LinearLayout>
+<!--  roulette increment bet keypad linear layout ends here -->

@@ -1,0 +1,653 @@
+<!--  main linear layout starts here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fungameavs.MenuActivity" 
+    android:id="@+id/Menulayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <!--  firstrow starts here -->
+   <LinearLayout 
+        android:id="@+id/firstrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">  
+        
+       <!--  firstrow_firstcolumn starts here -->
+       <LinearLayout 
+        android:id="@+id/firstrow_firstcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        </LinearLayout> 
+       <!--  firstrow_firstcolumn ends here -->
+       
+        <!--  firstrow_secondcolumn starts here -->
+       <LinearLayout 
+        android:id="@+id/firstrow_secondcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        
+            <!--  firstrow_secondcolumn_firstrow starts here -->
+            <LinearLayout
+                android:id="@+id/firstrow_secondcolumn_firstrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <!--  firstrow_secondcolumn_firstrow ends here -->
+            
+            <!--  firstrow_secondcolumn_secondrow starts here -->
+            <LinearLayout
+                android:id="@+id/firstrow_secondcolumn_secondrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+    
+                <TextView 
+                    android:id="@+id/txt_logged_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <!--  firstrow_secondcolumn_secondrow ends here -->
+        </LinearLayout> 
+       <!--  firstrow_secondcolumn ends here -->
+       
+        <!--  firstrow_thirdcolumn starts here -->
+       <LinearLayout 
+        android:id="@+id/firstrow_thirdcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        </LinearLayout> 
+       <!--  firstrow_thirdcolumn ends here -->
+       
+        <!--  firstrow_fourthcolumn starts here -->
+       <LinearLayout 
+        android:id="@+id/firstrow_fourthcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        
+           <!--  firstrow_fourthcolumn_firstrow starts here -->
+           <LinearLayout 
+               android:id="@+id/firstrow_fourthcolumn_firstrow"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal">
+           </LinearLayout>
+           <!--  firstrow_fourthcolumn_firstrow ends here -->
+           
+           <!--  firstrow_fourthcolumn_secondrow starts here -->
+           <LinearLayout 
+               android:id="@+id/firstrow_fourthcolumn_secondrow"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal">
+                
+               <TextView 
+                    android:id="@+id/txt_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+           </LinearLayout>
+           <!--  firstrow_fourthcolumn_secondrow ends here -->
+        </LinearLayout> 
+       <!--  firstrow_fourthcolumn ends here -->
+       
+       <!--  firstrow_fifthcolumn starts here -->
+       <LinearLayout 
+        android:id="@+id/firstrow_fifthcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+        </LinearLayout> 
+       <!--  firstrow_fifthcolumn ends here -->
+    </LinearLayout>
+    <!--  firstrow ends here -->
+    
+    <!--  secondrow starts here -->
+    <LinearLayout 
+        android:id="@+id/secondrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+       
+        <!--  secondrow_firstcolumn starts here -->
+        <LinearLayout 
+        android:id="@+id/secondrow_firstcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        </LinearLayout>
+        <!--  secondrow_firstcolumn ends here -->
+        
+        <!--  secondrow_secondcolumn starts here -->
+        <LinearLayout 
+        android:id="@+id/secondrow_secondcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+           
+            <!--  secondrow_secondcolumn_firstrow starts here -->
+            <LinearLayout 
+       		 android:id="@+id/secondrow_secondcolumn_firstrow"
+        	 android:layout_width="match_parent"
+        	 android:layout_height="match_parent"
+        	 android:orientation="horizontal">
+             </LinearLayout>
+            <!--  secondrow_secondcolumn_firstrow ends here -->
+            
+            <!--  secondrow_secondcolumn_secondrow starts here -->
+            <LinearLayout 
+       		 android:id="@+id/secondrow_secondcolumn_secondrow"
+        	 android:layout_width="match_parent"
+        	 android:layout_height="match_parent"
+        	 android:orientation="horizontal">
+               
+                <ImageView 
+                    android:id="@+id/pointtransfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        	 </LinearLayout>
+            <!--  secondrow_secondcolumn_secondrow ends here -->
+            
+            <!--  secondrow_secondcolumn_thirdrow starts here -->
+            <LinearLayout 
+       		 android:id="@+id/secondrow_secondcolumn_thirdrow"
+        	 android:layout_width="match_parent"
+        	 android:layout_height="match_parent"
+        	 android:orientation="horizontal">
+        	 </LinearLayout>
+            <!--  secondrow_secondcolumn_thirdrow ends here -->
+        </LinearLayout>
+        <!--  secondrow_secondcolumn ends here -->
+        
+        <!--  secondrow_thirdcolumn starts here -->
+        <LinearLayout 
+        android:id="@+id/secondrow_thirdcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        </LinearLayout>
+        <!--  secondrow_thirdcolumn ends here -->
+        
+        <!--  secondrow_fourthcolumn starts here -->
+        <LinearLayout 
+        android:id="@+id/secondrow_fourthcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            
+             <!--  secondrow_fourthcolumn_firstrow starts here -->
+             <LinearLayout 
+                 android:id="@+id/secondrow_fourthcolumn_firstrow"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="horizontal"> 
+             </LinearLayout>
+             <!--  secondrow_fourthcolumn_firstrow ends here -->
+             
+             <!--  secondrow_fourthcolumn_secondrow starts here -->
+             <LinearLayout
+                 android:id="@+id/secondrow_fourthcolumn_secondrow"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="horizontal">
+                
+                 <!--  secondrow_fourthcolumn_secondrow_firstcolumn starts here -->
+                 <LinearLayout 
+                     android:id="@+id/secondrow_fourthcolumn_secondrow_firstcolumn"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical">
+                 </LinearLayout>
+                 <!--  secondrow_fourthcolumn_secondrow_firstcolumn ends here -->
+                 
+                 <!--  secondrow_fourthcolumn_secondrow_secondcolumn starts here -->
+                 <LinearLayout 
+                     android:id="@+id/secondrow_fourthcolumn_secondrow_secondcolumn"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical">
+                     
+                     <ListView 
+                         android:id="@+id/listview1"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent">
+                     </ListView>
+                 </LinearLayout>
+                 <!--  secondrow_fourthcolumn_secondrow_secondcolumn ends here -->
+                 
+                 <!--  secondrow_fourthcolumn_secondrow_thirdcolumn starts here -->
+                 <LinearLayout 
+                     android:id="@+id/secondrow_fourthcolumn_secondrow_thirdcolumn"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical">
+                 </LinearLayout>
+                 <!--  secondrow_fourthcolumn_secondrow_thirdcolumn ends here -->
+             </LinearLayout>
+             <!--  secondrow_fourthcolumn_secondrow ends here -->
+             
+             <!--  secondrow_fourthcolumn_thirdrow starts here -->
+             <LinearLayout
+                 android:id="@+id/secondrow_fourthcolumn_thirdrow"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="horizontal"> 
+             </LinearLayout>
+             <!--  secondrow_fourthcolumn_thirdrow ends here -->
+             
+             
+        </LinearLayout>
+        <!--  secondrow_fourthcolumn ends here -->
+        
+        <!--  secondrow_fifthcolumn starts here -->
+        <LinearLayout 
+        android:id="@+id/secondrow_fifthcolumn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        </LinearLayout>
+        <!--  secondrow_fifthcolumn ends here -->
+    </LinearLayout>
+    <!--  secondrow ends here -->
+    
+    <!--  thirdrow starts here -->
+    <LinearLayout 
+        android:id="@+id/thirdrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <!--  thirdrow_firstcolumn starts here -->
+        <LinearLayout 
+            android:id="@+id/thirdrow_firstcolumn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+        <!--  thirdrow_firstcolumn ends here -->
+         
+         <!--  thirdrow_secondcolumn starts here -->
+        <LinearLayout 
+            android:id="@+id/thirdrow_secondcolumn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+             
+            <!--  thirdrow_secondcolumn_firstrow starts here -->
+            <LinearLayout 
+                android:id="@+id/thirdrow_secondcolumn_firstrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">  
+                
+                 <!--  thirdrow_secondcolumn_firstrow_firstcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_firstcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">  
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_firstcolumn ends here -->
+                 
+                 <!--  thirdrow_secondcolumn_firstrow_secondcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_secondcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">  
+                 
+                        <ImageView
+                                 android:id="@+id/btn_receivables_receive_menu"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"/>
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_secondcolumn ends here -->
+                 
+                 <!--  thirdrow_secondcolumn_firstrow_thirdcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_thirdcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">  
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_thirdcolumn ends here -->
+                 
+                  <!--  thirdrow_secondcolumn_firstrow_fourthcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_fourthcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">
+                     <ImageView
+                                 android:id="@+id/btn_receivables_reject_menu"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"/>
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_fourthcolumn ends here -->
+                 
+                  <!--  thirdrow_secondcolumn_firstrow_fifthcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_fifthcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">  
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_fifthcolumn ends here -->
+                 
+                 <!--  thirdrow_secondcolumn_firstrow_sixthcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_sixthcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">  
+                   
+                     <ImageView
+                                 android:id="@+id/btn_transferables_reject_menu"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"/>
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_sixthcolumn ends here -->
+                 
+                 <!--  thirdrow_secondcolumn_firstrow_seventhcolumn starts here -->
+                 <LinearLayout 
+                 android:id="@+id/thirdrow_secondcolumn_firstrow_seventhcolumn"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">  
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_firstrow_seventhcolumn ends here -->
+            </LinearLayout>
+            <!--  thirdrow_secondcolumn_firstrow ends here -->
+            
+            <!--  thirdrow_secondcolumn_secondrow starts here -->
+            <LinearLayout 
+                android:id="@+id/thirdrow_secondcolumn_secondrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"> 
+                
+                 
+                 <!--  thirdrow_secondcolumn_secondrow_secondcolumn starts here -->
+                 <LinearLayout 
+                     android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical">
+                     
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_firstrow starts here -->
+                      <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_firstrow"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal">
+                          
+                          <!-- gridvertical1 starts here-->
+                          <LinearLayout 
+                              android:id="@+id/gridvertical1"
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+                          
+                              <ListView 
+                                   android:id="@+id/listreceivables"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent">
+		                     </ListView>
+                          </LinearLayout>
+                          <!-- gridvertical1 ends here-->
+                          
+                          <!-- gridvertical2 starts here-->
+                          <LinearLayout 
+                              android:id="@+id/gridvertical2"
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+        
+                             <ListView 
+                                   android:id="@+id/listtransferables"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent">
+		                     </ListView>
+        					 
+                          </LinearLayout>
+                          <!-- gridvertical2 ends here-->
+                      </LinearLayout>
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_firstrow ends here -->
+                      
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow starts here -->
+                      <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_secondrow"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal">
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_firstcolumn starts here -->
+                      <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_firstcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                      </LinearLayout>
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_firstcolumn starts here -->
+                      
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_secondcolumn starts here -->
+                      <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_secondcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                             <CheckBox
+								    android:id="@+id/chkall_receivables"
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"/>   
+                      </LinearLayout>
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_secondcolumn ends here -->
+                      
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_thirdcolumn starts here -->
+                      <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_thirdcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                             <CheckBox
+								    android:id="@+id/chkall_transferables"
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"/>
+                      </LinearLayout>
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow_thirdcolumn ends here -->  
+                      </LinearLayout>
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_secondrow ends here -->
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow starts here -->
+                      <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal">
+                      
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_firstcolumn starts here -->
+                          <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_firstcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                          </LinearLayout> 
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_firstcolumn ends here --> 
+                          
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_secondcolumn starts here -->
+                          <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_secondcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                             <!--Response textview starts here  -->
+                             <TextView 
+                                 android:id="@+id/txt_response_menu"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"/>
+                             <!--Response textview ends here  -->
+                          </LinearLayout> 
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_secondcolumn ends here --> 
+                          
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_thirdcolumn starts here -->
+                          <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_thirdcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                           android:orientation="vertical">
+                            <ImageView
+                                 android:id="@+id/btn_OK_menu"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+   
+                          </LinearLayout> 
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_thirdcolumn ends here --> 
+                          
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_fourthcolumn starts here -->
+                          <LinearLayout 
+                          android:id="@+id/thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_fourthcolumn"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                          </LinearLayout> 
+                          <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow_fourthcolumn ends here -->  
+                      </LinearLayout>
+                      <!--  thirdrow_secondcolumn_secondrow_secondcolumn_thirdrow ends here -->
+                 </LinearLayout>
+                 <!--  thirdrow_secondcolumn_secondrow_secondcolumn ends here -->
+                 
+                 
+            </LinearLayout>
+            <!--  thirdrow_secondcolumn_secondrow ends here -->
+            
+            <!--  thirdrow_secondcolumn_thirdrow starts here -->
+            <LinearLayout 
+                android:id="@+id/thirdrow_secondcolumn_thirdrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"> 
+                
+                <!--  thirdrow_secondcolumn_thirdrow_firstcolumn starts here -->
+                <LinearLayout 
+                    android:id="@+id/thirdrow_secondcolumn_thirdrow_firstcolumn"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                </LinearLayout>
+                <!--  thirdrow_secondcolumn_thirdrow_firstcolumn ends here -->
+                
+                <!--  thirdrow_secondcolumn_thirdrow_secondcolumn starts here -->
+                <LinearLayout 
+                    android:id="@+id/thirdrow_secondcolumn_thirdrow_secondcolumn"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                    
+                     <!--  thirdrow_secondcolumn_thirdrow_secondcolumn_firstrow starts here -->
+                     <LinearLayout
+                         android:id="@+id/thirdrow_secondcolumn_thirdrow_secondcolumn_firstrow"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="horizontal">
+                     </LinearLayout>
+                     <!--  thirdrow_secondcolumn_thirdrow_secondcolumn_firstrow ends here -->
+                     
+                     <!--  thirdrow_secondcolumn_thirdrow_secondcolumn_secondrow starts here -->
+                     <LinearLayout
+                         android:id="@+id/thirdrow_secondcolumn_thirdrow_secondcolumn_secondrow"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="horizontal">
+                         
+                        
+                          
+                          <!-- vertical2 starts here -->
+                         <LinearLayout 
+                             android:id="@+id/vertical2"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical">
+                             
+                             <ImageView
+                                 android:id="@+id/btn_refresh_menu"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"/>
+                         </LinearLayout>
+                          <!-- vertical2 ends here -->
+                          
+                          <!-- vertical3 starts here -->
+                         <LinearLayout 
+                             android:id="@+id/vertical3"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical">
+                         </LinearLayout>
+                          <!-- vertical3 ends here -->
+                          
+                          <!-- vertical4 starts here -->
+                         <LinearLayout 
+                             android:id="@+id/vertical4"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical">
+                             
+                             <ImageView 
+                                 android:id="@+id/btn_logout_menu"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"/>
+                         </LinearLayout>
+                          <!-- vertical4 ends here -->
+                          
+                          <!-- vertical5 starts here -->
+                         <LinearLayout 
+                             android:id="@+id/vertical5"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical">
+                         </LinearLayout>
+                          <!-- vertical5 ends here -->
+                     </LinearLayout>
+                     <!--  thirdrow_secondcolumn_thirdrow_secondcolumn_secondrow ends here -->
+                     
+                     <!--  thirdrow_secondcolumn_thirdrow_secondcolumn_thirdrow starts here -->
+                     <LinearLayout
+                         android:id="@+id/thirdrow_secondcolumn_thirdrow_secondcolumn_thirdrow"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="horizontal">
+                     </LinearLayout>
+                     <!--  thirdrow_secondcolumn_thirdrow_secondcolumn_thirdrow ends here -->
+                </LinearLayout>
+                <!--  thirdrow_secondcolumn_thirdrow_secondcolumn ends here -->
+                
+                <!--  thirdrow_secondcolumn_thirdrow_thirdcolumn starts here -->
+                <LinearLayout 
+                    android:id="@+id/thirdrow_secondcolumn_thirdrow_thirdcolumn"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                </LinearLayout>
+                <!--  thirdrow_secondcolumn_thirdrow_thirdcolumn ends here -->
+            </LinearLayout>
+            <!--  thirdrow_secondcolumn_thirdrow ends here -->
+        </LinearLayout>
+        <!--  thirdrow_secondcolumn ends here -->
+        
+        <!--  thirdrow_thirdcolumn starts here -->
+        <LinearLayout 
+            android:id="@+id/thirdrow_thirdcolumn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+        <!--  thirdrow_thirdcolumn ends here -->
+    </LinearLayout>
+    <!--  thirdrow ends here -->
+    
+
+</LinearLayout>
+<!--  main linear layout ends here -->
+    
